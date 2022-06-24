@@ -13,14 +13,16 @@
     font-size: 25pt ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     justify-content: space-around
-
+    
 }
 .title {
     display: flex;
     justify-content: center;
     justify-items: center;
     font-size: 50pt;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    
+
 }
 .subtitle {
     display: flex;
@@ -36,13 +38,17 @@
     font-size: 45pt;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.imgbox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    img{
+    margin-bottom: 15px;
+    }
 .Magpie {
-    display: flex;
     background-image: linear-gradient(red, yellow, blue);
-    font-style: normal;
-    font-size: 25pt ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    justify-content: space-around
 
 }
 .Seagull {
@@ -51,9 +57,9 @@
 .Crow {
     background-image: repeating-conic-gradient(red 10%, yellow 20%);
 }
-.Sparrow {
+#Sparrow {
     background-image: conic-gradient(red, yellow, green);
 }
 .Home {
-    background-image: repeating-radial-gradient(red 10%, yellow 20%);
+    background-image: repeating-radial-gradient(red 10%, yellow 20%, orange 30%);
 }
