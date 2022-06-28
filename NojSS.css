@@ -21,8 +21,6 @@
     justify-items: center;
     font-size: 50pt;
     font-family: 'Times New Roman', Times, serif;
-    
-
 }
 .subtitle {
     display: flex;
@@ -40,13 +38,12 @@
 }
 .imgbox{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    }
-    img{
-    margin-bottom: 15px;
-    }
+    box-sizing: border-box;
+
+}
 .Magpie {
     background-image: linear-gradient(red, yellow, blue);
 
@@ -58,8 +55,40 @@
     background-image: repeating-conic-gradient(red 10%, yellow 20%);
 }
 #Sparrow {
-    background-image: conic-gradient(red, yellow, green);
+    background-image: conic-gradient(red, yellow,blue);
 }
 .Home {
     background-image: repeating-radial-gradient(red 10%, yellow 20%, orange 30%);
+}
+.navtex{
+    display: flex;
+    box-sizing: initial;
+    background-color: blue;
+    color: rgb(245, 133, 5);
+    padding: 5px;
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: stretch;
+    font-size: 25pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navq{ 
+    display: flex;
+    box-sizing: initial; width: fit-content;
+    border-width: 5px;
+    background-color: blue;
+    color: rgb(245, 133, 5);
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
+    font-size: 25pt;
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
