@@ -19,7 +19,8 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    font-size: 50pt;
+    font-size: 40pt;
+    font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 }
 .subtitle {
@@ -71,12 +72,14 @@
     border-style: solid;
     border-radius: 5px;
     justify-content: center;
-    justify-items: stretch;
+    justify-items: center;
+    align-items: center;
     font-size: 25pt;
     font-family: 'Times New Roman', Times, serif;
 }
 .navq{ 
     display: flex;
+    align-items: center;
     box-sizing: initial; width: fit-content;
     border-width: 5px;
     background-color: blue;
@@ -91,4 +94,19 @@
     font-family: 'Times New Roman', Times, serif;
 
 
+}
+.noj{
+    display:flex;
+    justify-content: center;
+    justify-items: center; margin-left: auto;margin-right: auto; width: fit-content;margin-top: 0.5cm;margin-bottom: 0cm;
+    font-style: normal;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 5px;
+    background-color: blue;
+    color: rgb(245, 133, 5);
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
 }
